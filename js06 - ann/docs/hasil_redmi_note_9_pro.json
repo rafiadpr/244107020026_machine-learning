@@ -1,0 +1,40 @@
+{
+  "lingkungan": "Pydroid3 - Redmi Note 9 Pro",
+  "perangkat": "Redmi Note 9 Pro; RAM 6 GB; 64 GB; Android 12; MIUI 14",
+  "python": "3.13.13",
+  "cpu": "",
+  "versi_library": {
+    "numpy": "2.4.4",
+    "sklearn": "1.8.0",
+    "annoy": "tidak tersedia",
+    "hnswlib": "tidak tersedia"
+  },
+  "parameter": {
+    "n_samples": 10000,
+    "dimensi": 128,
+    "k": 10,
+    "seed": 42
+  },
+  "hasil": [
+    {
+      "Model": "Exact NN",
+      "Waktu (detik)": 1.072103384998627,
+      "Status": "Berhasil"
+    },
+    {
+      "Model": "Annoy",
+      "Waktu (detik)": 1.3829658849863335,
+      "Status": "Berhasil"
+    },
+    {
+      "Model": "HNSW",
+      "Waktu (detik)": 7.894494371954352,
+      "Status": "Berhasil"
+    },
+    {
+      "Model": "FAISS IVF",
+      "Waktu (detik)": null,
+      "Status": "No module named 'faiss'"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "lingkungan": "Uji lokal",
+  "perangkat": "Windows-11-10.0.26300-SP0",
+  "python": "3.14.6",
+  "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "versi_library": {
+    "numpy": "2.4.6",
+    "sklearn": "1.9.0",
+    "annoy": "tidak tersedia",
+    "hnswlib": "tidak tersedia",
+    "faiss": "1.15.1"
+  },
+  "parameter": {
+    "n_samples": 10000,
+    "dimensi": 128,
+    "k": 10,
+    "seed": 42
+  },
+  "hasil": [
+    {
+      "Model": "Exact NN",
+      "Waktu (detik)": 1.3436485999991419,
+      "Status": "Berhasil"
+    },
+    {
+      "Model": "Annoy",
+      "Waktu (detik)": 0.7002630999995745,
+      "Status": "Berhasil"
+    },
+    {
+      "Model": "HNSW",
+      "Waktu (detik)": 0.6906090000011318,
+      "Status": "Berhasil"
+    },
+    {
+      "Model": "FAISS IVF",
+      "Waktu (detik)": 0.18917060000239871,
+      "Status": "Berhasil"
+    }
+  ]
+}
